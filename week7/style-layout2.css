@@ -1,0 +1,35 @@
+/* CSS Document — Content Boxes with Flex Layout */
+
+body {
+    background: pink;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+.year{
+    display: flex;
+    margin: 50px 0;
+    border: 3px solid purple;
+}
+
+.info-box {
+    flex-grow: 1;
+    flex-basis: auto;
+    background: pink;
+    color: purple;
+    padding: 25px;
+    margin: 20px
+}
+
+.bigger{
+    flex-grow: 4;
+}
